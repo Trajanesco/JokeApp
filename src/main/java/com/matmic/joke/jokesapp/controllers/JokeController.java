@@ -20,6 +20,7 @@ public class JokeController {
     public String showJoke(Model model){
         model.addAttribute("joke", jokeService.getJoke());
         System.out.println("joke app");
+        System.out.println("new");
         return "chucknorris";
     }
 
